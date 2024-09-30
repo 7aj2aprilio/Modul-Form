@@ -19,12 +19,12 @@
 </head>
 <body>
     <h1>Form Regsitrasi</h1>
-
+<div>
     <fieldset>
         <legend>Biodata</legend>
             <table>
                 <form action="" method="get">
-                <!--Nama-->
+            <div>
                 <tr>
                     <td>
                         <p>Mahasiswa</p> 
@@ -36,13 +36,19 @@
                         <p><input type="text" name="required_form" size="20" required placeholder="Nama Anda"></p>
                     </td>
                 </tr>
+            </div>
+            
                 <!--Ni induk mahasiswa -->
+            <div>
                 <tr>
                     <td><p>No Induk Mahasiswa(NIM)</p></td>
                     <td>:</td>
                     <td><p><input type="text" name="required_form" size="20" required placeholder="12345678"></p></td>
                 </tr> 
+            </div>
                 <!--alamat -->
+
+            <div>
                 <tr>
                     <td class="textarea">Alamat</td>
                     <td class="textarea">:</td>
@@ -52,7 +58,10 @@
                         </p>
                     </td>
                 </tr> 
+            </div>
+
                 <!--Tanggal -->
+            <div>
                 <tr>
                     <td>Tanggal Lahir</td>
                     <td>:</td>
@@ -82,7 +91,10 @@
                         </p>
                     </td>
                 </tr> 
+            </div>
+
                 <!--Jenis kelamin -->
+            <div>
                 <tr>
                     <td>Jenis Kelamin</td>
                     <td>:</td>
@@ -93,8 +105,11 @@
                             
                         </p>
                     </td>
-                </tr> 
+                </tr>
+            </div>
+
                 <!--Upload File -->
+            <div>
                 <tr>
                     <td>Upload foto</td>
                     <td>:</td>
@@ -104,7 +119,9 @@
                         </p>
                     </td>
                 </tr> 
+            </div>
                 <!--Url Website -->
+            <div>
                 <tr>
                     <td>URL Website</td>
                     <td>:</td>
@@ -113,8 +130,10 @@
                             <input type="text" name="required_form" size="30" required placeholder="URL Website Anda">
                         </p>
                     </td>
-                </tr> 
+                </tr>
+            </div> 
                 <!--Perguruan tinggi -->
+            <div>
                 <tr>
                     <td>Perguruan tinggi</td>
                     <td>:</td>
@@ -124,7 +143,7 @@
                         </p>
                     </td>
                 </tr> 
-                
+            </div>    
             </table>
         </fieldset>
 
@@ -133,14 +152,13 @@
 <fieldset>
     <legend>Info akun</legend>
         <table>
-            
                     <!--email -->
                 <tr>
                     <td>Email</td>
                     <td>:</td>
                     <td>
                         <p>
-                            <input type="text" name="email_form" size="20" required placeholder="Email Anda">
+                            <input type="email" name="email_form" size="20" required placeholder="Email Anda">
                         </p>
                     </td>
                 </tr>
@@ -196,6 +214,7 @@
                 </td>
             </table>
         </fieldset>
+    </div>
         <br>
     <!--Tombol -->
     <p>
